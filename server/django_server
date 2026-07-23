@@ -1,5 +1,4 @@
-theia@theia-anujkashyap1:/home/project/xrwvm-fulls
-tack_developer_capstone/server$ python3 manage.py runserver
+theia@theia-anujkashyap1:/home/project/xrwvm-fullstack_developer_capstone/server$ python3 manage.py runserver
 Watching for file changes with StatReloader
 Performing system checks...
 
@@ -8,3 +7,19 @@ July 23, 2026 - 12:47:03
 Django version 5.2.16, using settings 'djangoproj.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
+
+
+
+
+
+
+LOGIN
+theia@theia-anujkashyap1:/home/project$ curl -X POST "https://anujkashyap1-8000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/djangoapp/login" \
+  -H "Content-Type: application/json" \
+  -d '{"userName":"chirag","password":"12345678"}'
+{"userName": "chirag", "status": "Authenticated"}
+
+
+LOGOUT
+theia@theia-anujkashyap1:/home/project/xrwvm-fullstack_developer_capstone$ curl -X GET "https://anujkashyap1-8000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/djangoapp/logout"
+{"userName": ""}
