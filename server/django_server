@@ -38,3 +38,17 @@ r/database$ curl -X GET "http://localhost:3030/fetchDealers/Kansas"
 r/database$ curl -X GET "http://localhost:3030/fetchReviews/dealer/29"
 [{"_id":"6a62394c0493e32c8b24d9fd","id":3,"name":"Lion Reames","dealership":29,"review":"Expanded global groupware","purchase":true,"purchase_date":"10/20/2020","car_make":"Mazda","car_model":"MX-5","car_year":2003,"__v":0}]theia@theiadocker-anujkashyap1:theia@theiadocker-anujkashyap1:/home/project/xrwvm-fullstack_developer_capstone/serve
 r/database$ 
+
+
+
+
+
+
+
+GETALLCARMAKES
+
+
+theia@theiadocker-anujkashyap1:/home/pr
+oject/xrwvm-fullstack_developer_capston
+e$ curl -X GET "http://localhost:8000/djangoapp/get_cars"
+{"CarModels": [{"CarModel": "Pathfinder", "CarMake": "NISSAN"}, {"CarModel": "Qashqai", "CarMake": "NISSAN"}, {"CarModel": "XTRAIL", "CarMake": "NISSAN"}, {"CarModel": "A-Class", "CarMake": "Mercedes"}, {"CarModel": "C-Class", "CarMake": "Mercedes"}, {"CarModel": "E-Class", "CarMake": "Mercedes"}, {"CarModel": "A4", "CarMake": "Audi"}, {"CarModel": "A5", "CarMake": "Audi"}, {"CarModel": "A6", "CarMake": "Audi"}, {"CarModel": "Sorrento", "CarMake": "Kia"}, {"CarModel": "Carnival", "CarMake": "Kia"}, {"CarModel": "Cerato", "CarMake": "Kia"}, {"CarModel": "Corolla", "CarMake": "Toyota"}, {"CarModel": "Camry", "CarMake": "Toyota"}, {"CarModel": "Kluger", "CarMake": "Toyota"}]}
