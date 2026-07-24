@@ -52,3 +52,17 @@ theia@theiadocker-anujkashyap1:/home/pr
 oject/xrwvm-fullstack_developer_capston
 e$ curl -X GET "http://localhost:8000/djangoapp/get_cars"
 {"CarModels": [{"CarModel": "Pathfinder", "CarMake": "NISSAN"}, {"CarModel": "Qashqai", "CarMake": "NISSAN"}, {"CarModel": "XTRAIL", "CarMake": "NISSAN"}, {"CarModel": "A-Class", "CarMake": "Mercedes"}, {"CarModel": "C-Class", "CarMake": "Mercedes"}, {"CarModel": "E-Class", "CarMake": "Mercedes"}, {"CarModel": "A4", "CarMake": "Audi"}, {"CarModel": "A5", "CarMake": "Audi"}, {"CarModel": "A6", "CarMake": "Audi"}, {"CarModel": "Sorrento", "CarMake": "Kia"}, {"CarModel": "Carnival", "CarMake": "Kia"}, {"CarModel": "Cerato", "CarMake": "Kia"}, {"CarModel": "Corolla", "CarMake": "Toyota"}, {"CarModel": "Camry", "CarMake": "Toyota"}, {"CarModel": "Kluger", "CarMake": "Toyota"}]}
+
+
+
+
+
+
+
+
+
+ANALYZERREVIEW 
+theia@theiadocker-anujkashyap1:/home/project/xrwvm-fullstack_developer_capstone/server/djangoapp/microservices$ curl -X GET "https://sentianalyzer.2coafj249k3s.us-south.codeengine.appdomain.cloud/analyze/Fantastic%20services"
+{"sentiment": "positive"}
+
+
